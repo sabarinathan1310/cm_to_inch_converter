@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cm to inch converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calci">
+        
+        <div class="box">
+            <div>
+           <h2>cm to inches</h2>
+            </div>
+         <div>
+         <input type="text" placeholder="length in cm" name="converter" id="inputval">
+         </div>
+          <div>
+           <button type="submit" onclick="converter()" >Convert to inches</button>
+          </div>
+         <div>
+             <p id="result"></p>
+         </div>
+        </div>
+        
+    </div>
+    <script>
+        function converter(){
+        const inputValue = Number(document.getElementById("inputval").value);
+        const res = inputValue/2.54;
+        const result = document.getElementById("result");
+        result.innerHTML = res.toFixed(2) + "  inches";
+
+        }
+        
+
+    </script>
+</body>
+</html>

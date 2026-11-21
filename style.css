@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(253, 253, 189);
+}
+.box{
+    width: 500px;
+    height: 400px;
+    border-radius: 7px;
+    background-color: rgb(25, 24, 24);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    color: rgb(253, 253, 189) ;
+}
+input,p{
+    font-size: 25px;
+    border-radius: 7px;
+    padding: 10px 30px;
+}
+button{
+    margin-top: 30px;
+    font-size: 25px;
+    padding: 10px 30px;
+    border-radius: 7px;
+    background-color:  rgb(253, 253, 189);
+}
+#calci{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: white;
+}
+h2{
+    font-size: 2.5em;
+}
