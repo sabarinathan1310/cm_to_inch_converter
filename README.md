@@ -8,9 +8,8 @@ A small, easy-to-use web app for converting a measurement from centimeters (cm) 
 
 ## Live Demo
 
-https://your-site-name.netlify.app
+https://cm-to-inch-covertor.netlify.app/
 
-Replace this placeholder with the live URL for your site.
 
 ## Features
 
